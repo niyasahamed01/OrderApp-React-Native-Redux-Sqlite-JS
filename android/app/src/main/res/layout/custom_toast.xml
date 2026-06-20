@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="@drawable/toast_background"> <!-- Use rounded background drawable -->
+
+    <!-- Close button ImageView -->
+    <ImageView
+        android:id="@+id/toast_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/baseline_close_24"
+        android:contentDescription="@string/close" />
+
+    <!-- TextView for the toast message -->
+    <TextView
+        android:id="@+id/toast_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_below="@id/toast_close"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        tools:ignore="RelativeOverlap" />
+
+</RelativeLayout>

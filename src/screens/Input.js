@@ -6,7 +6,6 @@ export const Input = ({ navigation }) => {
     const [name, setName] = useState('') 
     const renderCount = useRef(0) 
   
-    // It's an object with current property {current: 0} 
     useEffect(() => { 
         // Updating the counter value on each re-render 
         renderCount.current = renderCount.current + 1 

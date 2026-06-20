@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">SocialMediaApp</string>
+    <string name="app_name">E-Commerce App</string>
+    <string name="close">Close</string>
 </resources>
